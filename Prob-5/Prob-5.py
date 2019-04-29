@@ -5,7 +5,16 @@
 # <YOUR NAME>
 
 def main():
-    x = eval(2)
-    print("x:", x)
+    try:
+        x = eval(2)
+        print("x:", x)
+    except:
+        print("There was an error within the eval function, exiting")
+        exit
+
+
+   
+
+
 
 main()
